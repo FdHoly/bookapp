@@ -36,3 +36,9 @@ Step :
 17. Menginitiate git dengan git init
 
 18. Commit file dengan git add . 
+
+19. Membuat commit dengan git commit -m "BookApp Commit Lengkap"
+
+20. Menambahkan link repo dengan git remote add origin "https://github.com/FdHoly/bookapp.git"
+
+21. Melakukan push terakhir dengan perintah "git push -u origin master"
