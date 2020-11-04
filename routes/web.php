@@ -19,3 +19,5 @@ $router->get('/', function () use ($router) {
 $router->get('/base', 'BooksController@index');
 $router->get('/base/{id}', 'BooksController@show');
 $router->post('/base', 'BooksController@store');
+$router->put('/base/{id}', 'BooksController@update');
+$router->delete('base/{id}', 'BooksController@destroy');
