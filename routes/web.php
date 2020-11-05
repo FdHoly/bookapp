@@ -21,3 +21,9 @@ $router->get('/base/{id}', 'BooksController@show');
 $router->post('/base', 'BooksController@store');
 $router->put('/base/{id}', 'BooksController@update');
 $router->delete('base/{id}', 'BooksController@destroy');
+
+$router->get('/author', 'AuthorsController@index');
+$router->get('/author/{id}', 'AuthorsController@show');
+$router->post('/author', 'AuthorsController@store');
+$router->put('/author/{id}', 'AuthorsController@update');
+$router->delete('author/{id}', 'AuthorsController@destroy');
