@@ -43,3 +43,28 @@ Step :
 20. Menambahkan link repo dengan git remote add origin "https://github.com/FdHoly/bookapp.git"
 
 21. Melakukan push terakhir dengan perintah "git push -u origin master"
+
+-- Modul 2
+22. Mencoba fungsi method untuk melihat list buku dan buku dari id
+
+23. Menambahkan fungsi baru untuk menginput buku dengan function store, lalu menambahkan route pada web.php untuk function store dengan method post, lalu melakukan push ke git dengan commit "BookApp CRUD-Create"
+
+24. Menambah fungsi update untuk memperbarui data buku dengan function update, menambah route pada web.php untuk function update dengan method put
+
+25. Menambah fungsi destroy untuk menghapus data buku dengan sesuai dengan id dengan function destroy, menambah route pada web.php untuk function destroy dengan method delete
+
+26. Mencoba fungsi method yang baru ditambahkan dengan postman lalu melakukan push ke git dengan commit "BookApp CRUD-Update&Delete"
+
+27. Menambah tabel baru pada database bookapp dengan command "php artisan make:migration create_authors_table --create=authors" lalu mengedit migration file yang telah digenerate dengan skema yang ditentukan oleh modul. 
+
+28. Menambah tabel sesuai dengan file migration dengan command "php artisan migrate"
+
+29. Membuat model Author.php dan controller AuthorsController.php. Model berisikan skema variabel tabel, sedangkan controller berisikan function yang akan digunakan untuk tabel. 
+
+30. Menambahkan route sesuai dengan fungsi CRUD yang dibutuhkan oleh AuthorsController.
+
+31. Mencoba method-method yang dibuat dengan postman untuk melihat data, insert, update, dan delete
+
+32. Melakukan push dengan commit "BookApp Author CRUD Lengkap"
+
+33. Mengedit README.md dan melakukan push dengan commit "Bookapp Update README.md - Modul 2"
